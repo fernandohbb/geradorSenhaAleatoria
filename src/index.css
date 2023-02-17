@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(90deg,rgb(8, 69, 148), rgb(4, 104, 49));
+}
+h1{
+  color: rgb(2, 1, 1);
+  margin: 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input{
+  background: linear-gradient(90deg,rgb(18, 18, 19), rgb(51, 53, 52));
+  color: rgb(17, 212, 238);
+  height: 38px;
+  border-radius: 9px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: 3px solid  black;
+}
+.btn1{
+  background-color: black;
+  color: rgb(17, 212, 238);
+  height: 40px;
+  border-radius: 7px;
+  max-width: 100px;
+  width: 100%;
+  margin-left: -90px;
+  margin-top: -18px;
+  padding: 2px;
+}
+.btn2{
+  background-color: black;
+  color: rgb(17, 212, 238);
+  height: 40px;
+  border-radius: 7px;
+  max-width: 100px;
+  width: 100%;
+  margin-left: 120px;
+  margin-top: -40px;
+  padding: 2px;
+}
+.btn1:hover{
+  background-color: rgb(10, 189, 135);
+  color: black;
+}
+.btn2:hover{
+  background-color: rgb(10, 189, 135);
+  color: black;
+}
+spam{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgb(6, 20, 15);
+}
